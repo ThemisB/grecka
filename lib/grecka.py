@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Created by Themis Beris, (c) 2015
 # Conversion is based on ELOT 743
 
 import re

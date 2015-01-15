@@ -24,7 +24,6 @@ class Grecka:
         EN = list("aavgdeeziiiiklmnxooprsstyyyfoo")
 
         translation_dictionary = dict()
-        syllables = OrderedDict()
 
         for i in range (len(GR)):
                 translation_dictionary[GR[i]] = EN[i]

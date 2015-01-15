@@ -20,8 +20,8 @@ class Grecka:
     @staticmethod
     def toGreeklish(text,writeflag=False,outputname='myout.txt'):
 
-        GR = list("αάβγδεέζηιίϊκλμνξοόπρσςτυύϋφωώ")
-        EN = list("aavgdeeziiiiklmnxooprsstyyyfoo")
+        GR = list("αάβγδεέζηήιίϊκλμνξοόπρσςτυύϋφωώ")
+        EN = list("aavgdeeziiiiiklmnxooprsstyyyfoo")
 
         translation_dictionary = dict()
 

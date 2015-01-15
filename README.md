@@ -10,6 +10,13 @@ Simply copy-paste the `grecka.py` file and import it to your project.
 Methods
 -------
 
-Grecka is a static class with one method defined in it. 
+`Grecka` is a class with one static method that you can use. 
 
-The protype is : `Grecka(text,writefile,outputfile)`
+**Prototype**: `toGreeklish(text,writeflag=False,outputname='myout.txt')`
+- If no optional args are given, output will printed on terminal
+- Otherwise it will be saved on `outputname`.
+
+To Be Implemented
+-----------------
+
+- **Mixed (uppercase and lowercase) letters**

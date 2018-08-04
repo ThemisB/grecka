@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import sys
-sys.path.append("../lib")
+import os
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)),"../lib"))
 from grecka import Grecka
 
 if __name__ == "__main__":

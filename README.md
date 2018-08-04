@@ -16,7 +16,3 @@ Methods
 - If no optional args are given, output will printed on terminal
 - Otherwise it will be saved on `outputname`.
 
-To Be Implemented
------------------
-
-- **Mixed (uppercase and lowercase) letters**

@@ -11,13 +11,9 @@ if sys.version_info < ( 3 , 0 ):
     sys.exit("This script requires Python 3 and above.")
 
 class Grecka:
-    @staticmethod
-    def writeFile(filename,greeklish_text):
-        with open(filename,'w') as myfile:
-            myfile.write(greeklish_text)
 
     @staticmethod
-    def toGreeklish(text,writeflag=False,outputname='myout.txt'):
+    def toGreeklish(text):
 
         GR = list("ΑΆΒΓΔΕΈΖΗΉΙΊΪΚΛΜΝΞΟΌΠΡΣΤΥΎΫΦΩΏαάβγδεέζηήιίϊΐκλμνξοόπρσςτυύϋΰφωώ")
         EN = list("AAVGDEEZIIIIIKLMNXOOPRSTYYYFOOaavgdeeziiiiiiklmnxooprsstyyyyfoo")
@@ -51,8 +47,4 @@ class Grecka:
         for key in translation_dictionary:
             text = re.sub(key,translation_dictionary[key],text)
 
-        if writeflag == False:
-            return (text)
-        else:
-            Grecka.writeFile(outputname,text)
-
+        return text

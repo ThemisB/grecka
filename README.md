@@ -5,7 +5,7 @@ Grecka is a python script to convert Greek to Greeklish based on ELOT 743 (the s
 How to use
 ----------
 
-Simply copy-paste the `grecka.py` file and import it to your project.
+Import the grecka module and use its methods, as used on the [test](https://github.com/ThemisB/grecka/blob/master/test/test.py) file.
 
 Methods
 -------
